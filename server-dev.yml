@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8081
 spring:
   application:
     name: feign-server
@@ -9,3 +9,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:10000/eureka/
+sms:
+  ip:192.168.0.12
